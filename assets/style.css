@@ -1,0 +1,16 @@
+#allpage {
+   margin: 0 auto;
+}
+
+.movies-pics {
+   display: block;
+}
+
+.movies-pics img {
+   float:left;
+}
+
+#right-text {
+position: absolute;
+float:right;
+}
