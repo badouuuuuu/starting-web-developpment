@@ -3,16 +3,15 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif; */
 
 body {
-
-   height: auto;
    background-color: #EAEAEA;
    display: grid;
-   grid-template-columns: 20% 60% 20%;
+   grid-template-columns:25% 55% 20%;
    grid-template-rows: auto;
+   min-width: 600px;
 }
 
 h1 {
-   font-family: 'Open Sans', sans-serif; 
+   font-family: 'Montserrat', sans-serif;
    color: #E63A4F;
    font-size: 30px;
    font-weight: 700;
@@ -20,45 +19,38 @@ h1 {
 
 p {
    font-family: 'Montserrat', sans-serif;
-   font-size: 14px;
+   font-size: 16px;
 }
 
 #fullpage {
    grid-column: 2 / 3;
-   justify-content: center;
-   margin: 0 auto;
-   width: 500px;
-   height: auto;
-   margin:0 auto;
-   background-color:yellow;
-   grid-gap: 20px;
+   width:600px;
 }
+
 
 h2 , h3 , #favoritemovies p {
    color: grey;
 }
 
 #first-tabs {
-   border-radius: 5px;
-   padding-top: 50px;
-   -webkit-box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
-   -moz-box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
-   box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
-}
-
-#first-tabs {
-  text-align:center;
+   font-family: 'Montserrat', sans-serif;
+   color: grey;
   grid-column: 2 / 3;
   background-color: white;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
   -moz-box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
   box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
+  border-radius: 2px;
+  padding-top: 50px;
+  margin-bottom: 15px;
+
 }
 
 #first-tabs img {
    border-radius: 50%;
    width: 20%;
    border: 2px solid rgb(160, 159, 159);
+   align-items: center;
 }
 
 button {
@@ -70,17 +62,20 @@ button {
    border-radius: 5px;
    margin-bottom: 10px;
    margin-top: 10px;
+   height: 50px;
+   width: 150px;
+
 }
 
 #socialmedia {
-   border-radius: 5px;
+   border-radius: 2px;
    grid-column: 2 / 3;
    display: grid;
    background-color: white;
-   width: 500px;
+   width: 600px;
    height: 150px;
+   padding-top: 50px;
    margin-bottom: 10px;
-
    text-align: center;µ
    -webkit-box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
    -moz-box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
@@ -91,35 +86,34 @@ button {
    display: inline-block;
    padding-right: 50px;
    padding-top: 15px;
-   
+   font-style: normal;
+   color: grey;
+   opacity: 0.3;
+
 }
 
 #favoritemovies {
-   border-radius: 5px;
+   font-family: 'Montserrat', sans-serif;
+   border-radius: 2px;
    padding-left: 20px;
    background: white;
-   grid-column: 2 / 3;
    -webkit-box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
    -moz-box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
    box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
 }
 
-.movies-pics {
-   width:15%;
-
- 
-}
-
-.right-text h3 {
+#favoritemovies h2 {
    text-align: center;
+   padding-top: 20px;
+   margin-bottom: 100px;
 }
 
-.right-text {
-   text-align: left;
-   width: 350px;
-   margin: 0 auto;
-   justify-content: right;
-   display: grid;
+.movies-pics {
+   width: 100%;
+}
+
+#favoritemovies h3 {
+   text-align: center;
 }
 
 
