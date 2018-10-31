@@ -3,84 +3,123 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif; */
 
 body {
-   width: 960px;
-   text-align: center;
+
    height: auto;
-   background-color: grey;
+   background-color: #EAEAEA;
    display: grid;
    grid-template-columns: 20% 60% 20%;
    grid-template-rows: auto;
 }
 
 h1 {
-   font-family: 'Montserrat', sans-serif;
-   color: red;
+   font-family: 'Open Sans', sans-serif; 
+   color: #E63A4F;
    font-size: 30px;
-   font-weight: 700p;
+   font-weight: 700;
 }
 
 p {
-   font-family: 'Open Sans', sans-serif; 
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
 }
 
 #fullpage {
    grid-column: 2 / 3;
    justify-content: center;
    margin: 0 auto;
-   width: 960px;
-   background-color:purple;
+   width: 500px;
+   height: auto;
+   margin:0 auto;
+   background-color:yellow;
    grid-gap: 20px;
-}
-
-#first-tabs {
-   grid-column: 2 / 3;
-   width: 960px;
-   background-color: yellow;
 }
 
 h2 , h3 , #favoritemovies p {
    color: grey;
 }
 
+#first-tabs {
+   border-radius: 5px;
+   padding-top: 50px;
+   -webkit-box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
+   -moz-box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
+   box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
+}
+
+#first-tabs {
+  text-align:center;
+  grid-column: 2 / 3;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
+  box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
+}
+
+#first-tabs img {
+   border-radius: 50%;
+   width: 20%;
+   border: 2px solid rgb(160, 159, 159);
+}
+
 button {
    font-family: 'Open Sans', sans-serif; 
    font-weight: 700;
    color: white;
-   background-color: red;
+   background-color: #E63A4F;
    border: none;
-   border-radius: 5px
+   border-radius: 5px;
+   margin-bottom: 10px;
+   margin-top: 10px;
 }
 
 #socialmedia {
+   border-radius: 5px;
    grid-column: 2 / 3;
    display: grid;
-   background-color: cyan;
-   width: 960px;
+   background-color: white;
+   width: 500px;
+   height: 150px;
+   margin-bottom: 10px;
 
+   text-align: center;µ
+   -webkit-box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
+   -moz-box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
+   box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
 }
 
 #socialmedia li {
    display: inline-block;
+   padding-right: 50px;
+   padding-top: 15px;
+   
 }
 
 #favoritemovies {
-   display: grid;
-   background: pink;
-   width: 960px;
-   height: auto;
-
+   border-radius: 5px;
+   padding-left: 20px;
+   background: white;
    grid-column: 2 / 3;
+   -webkit-box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
+   -moz-box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
+   box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
 }
 
 .movies-pics {
-   float:left;
-   width:10%;
-   padding-bottom: 20px;
+   width:15%;
+
+ 
+}
+
+.right-text h3 {
+   text-align: center;
+}
+
+.right-text {
+   text-align: left;
+   width: 350px;
+   margin: 0 auto;
+   justify-content: right;
+   display: grid;
 }
 
 
-#odyssey p {
-   float:right;
-   text-align: right;
-   justify-content: left;
-}
