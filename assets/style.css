@@ -113,13 +113,9 @@ button {
 
 #favoritemovies p {
   text-align: justify;
-  margin-left: 20px;
-  padding-left: 20px;
+  margin-left: 30px;
+  padding-left: 30px;
   font-size: 16px;
-
+  line-height: 150%;
 }
 
-.text-right {
-  left: 5px;
-
-}
